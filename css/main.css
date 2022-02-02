@@ -138,11 +138,11 @@ nav ul li a:hover {
   animation: myfirst 2s infinite; */
 }
 
-@keyframes myfirst {
+/* @keyframes myfirst {
   0%   { left: 0px; top: 0px;}
   50%  { left: 0px; top: 20px;}
   100% { left: 0px; top: 0px;}
-}
+} */
 
 #main {
   min-height: 100vh;
@@ -179,6 +179,20 @@ nav ul li a:hover {
   padding: 5px;
   height: 300px;
   width: 300px;
+  font-size: 1.6em;
+  line-height: 40px;
+}
+
+#resume {
+  background-color: rgb(145, 58, 226);
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#resume:hover{
+  background-color: rgb(156, 76, 230);
 }
 
 #skills {
@@ -211,24 +225,24 @@ nav ul li a:hover {
   background-color: #38678e;
   color: #eee;
   cursor: pointer;
-  padding: 18px 40px;
+  padding: 14px 30px;
   border: none;
   outline: none;
-  font-size: 0.8em;
+  font-size: 1.1em;
   transition: 0.4s;
   border-radius: 5px;
 }
 
-.active, .accordion:hover {
-  /* background-color: #ccc;  */
-}
+/* .active, .accordion:hover {
+  background-color: #5a85a8; 
+} */
 
 .accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
+  font-size: 0.7em;
+  color: #eee;
   float: right;
-  margin-left: 5px;
+  margin-left: 16px;
 }
 
 .active:after {
@@ -241,6 +255,7 @@ nav ul li a:hover {
   width: 50%;
   /* background-color: white; */
   overflow: hidden;
+  line-height: 1.8em;
 }
 
 .panel ul {
