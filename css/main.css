@@ -262,6 +262,55 @@ nav ul li a:hover {
   list-style-type: none;
 }
 
+#projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  /* border: 1px solid brown; */
+}
+
+.projects div {
+  flex-basis: 40%;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  /* border: 1px solid red; */
+}
+
+.card {
+  height: 200px;
+  box-shadow: 0 4px 8px 0 #38678E;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #38678E;
+  cursor: pointer;
+}
+
+.card a{
+  color: honeydew;
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+}
+
 #footer{
   height: 40vh;
   background-color: #000;
@@ -288,13 +337,21 @@ nav ul li a:hover {
   padding: 1.5em;
 }
 
+#footer .part p{
+  margin-bottom: 10px;
+}
+
 #footer .part ul {
   list-style-type: none;
   overflow: hidden;
 }
 
 #footer .part ul li a {
+  color: #38678E;
   text-decoration: none;
 }
 
+#footer .part ul li a:hover {
+  color: honeydew ;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */

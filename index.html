@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -19,6 +20,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#main">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetcs</a></li>
                 <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
@@ -70,6 +72,43 @@
         </div>
     </Article>
 
+    <Article id="projects">
+        <div class="projects monospace">
+            <div class="card card-box">
+                <a href="https://licious-veau.herokuapp.com/" target="_blank">
+                <img src="/img/licious-veau.jpg" alt="image">
+                <div class="description">
+                <h4><b>Licious Veau: </b><br>Book a restaurant online</h4> 
+                </div>
+                </a>
+            </div>
+            <div class="card card-box">
+                <a href="https://apex-news-webapp.herokuapp.com/" target="_blank">
+                <img src="/img/apex-news.jpg" alt="image">
+                <div class="description">
+                <h4><b>Apex News: </b><br>Best news source</h4> 
+                </div>
+                </a>
+            </div>
+            <div class="card card-box">
+                <a href="https://github.com/PowerBlockx/Crypto-Token" target="_blank">
+                <img src="" alt="image">
+                <div class="description">
+                <h4><b>Berry Crypto Token: <br>Berry token on Ethereum Blockchain</b></h4> 
+                </div>
+                </a>
+            </div>
+            <div class="card card-box">
+                <a href="https://github.com/0Verlord-41/JS-Projects" target="_blank">
+                <img src="" alt="image">
+                <div class="description">
+                <h4><b>LiL' proj X</b></h4> 
+                </div>
+                </a>
+            </div>
+        </div>
+    </Article>
+
     <footer id="footer"> 
         <div class="container sansserif">
             <div class="part">
@@ -79,9 +118,12 @@
             <div class="part">
                 <p>Contact me here</p>
                 <ul>
-                    <li><a href="">github</a></li>
-                    <li><a href="">mail</a></li>
-                    <li><a href="">linkedin</a></li>
+                    <!-- <li><a href="" class="fa fa-github"> github</a></li>
+                    <li><a href="" class="fa fa-google"> mail</a></li>
+                    <li><a href="" class="fa fa-linkedin"> linkedin</a></li> -->
+                    <li><a href=""><ion-icon name="logo-github"></ion-icon> github</a></li>
+                    <li><a href=""><ion-icon name="mail"></ion-icon> mail</a></li>
+                    <li><a href=""><ion-icon name="logo-linkedin"></ion-icon> linkedin</a></li>
                 </ul>
             </div>
         </div>
@@ -96,6 +138,7 @@
             loop: true
         });
     </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
